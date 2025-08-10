@@ -13,7 +13,8 @@ public class armstrong {
         int count=0;
         while (temp1>0){ // this loop will be counting the number of digits
             count++;
-            temp1=temp1/10;
+
+
         }
         System.out.println("Your Number of digits present are : "+count);
 
