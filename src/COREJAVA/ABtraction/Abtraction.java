@@ -22,8 +22,6 @@ class linux extends laptop{
         return price * 20.0;
     }
 }
-
-
 public class Abtraction {
     public static void userchoice(laptop obj){
         System.out.println(obj.description());

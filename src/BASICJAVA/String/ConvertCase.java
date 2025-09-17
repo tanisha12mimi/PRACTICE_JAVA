@@ -4,29 +4,32 @@ public class ConvertCase {
     public static void main(String[] args) {
 // 1)	Program To Convert Given String Into LowerCase Without Using Built-In-method
 
-        String S ="TANISHA";
-        for (int i =0;i<S.length();i++){
-            System.out.print((char)(S.charAt(i)+32));
+//        String S ="TANISHA";
+//        for (int i =0;i<S.length();i++){
+//            System.out.print((char)(S.charAt(i)+32));
+//        }
+//
+////uppercase
+//        System.out.println("______________________");
+//
+//
+//
+//
+//        String a="tanisha";
+//        for(int i=0;i<a.length();i++){
+//            System.out.print((char)(a.charAt(i)-32));
+//        }
+//
+//
+//
+//
+        String S = "GEEKS";
+        for (int i = 0; i < S.length(); i++) {
+            if (i % 2 == 0) {
+                System.out.print(S.charAt(i));
+            }
+
+
         }
-
-//uppercase
-        System.out.println("______________________");
-
-
-
-
-        String a="tanisha";
-        for(int i=0;i<a.length();i++){
-            System.out.print((char)(a.charAt(i)-32));
-        }
-
-
-
-
-
-
-
-
-
     }
 }

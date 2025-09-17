@@ -1,0 +1,21 @@
+BEHEVIOUR OF == OPERATOR IN CASE OF STRING
+
+THE == OPERATORIS USED TO DETERMINED WHETER THE CONTENT OF TWO STRING OF TWO VARIABLE DIFFRent
+
+** string are objects in java and  have hashcode()6t54r3e2
+
+improtant method
+
+length()
+
+charAt()
+getChar()
+getByte()
+trim()
+
+
+//wrapper class
+
+each java primetive datatype has a coresponding warraper class
+* vector, arraylist, linklist class present in java.util package cannot handle primitive datatype
+like int , char , float etc .hence primitve datatype

@@ -11,6 +11,7 @@ class A{
 }
 class B extends A{
 
+    @Override
     public void name() {
         System.out.println("MY name is Tanisha");
     }
